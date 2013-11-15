@@ -4,7 +4,8 @@
   "description": "A modal module for shoelace",
   "author": "Michael Vanasse",
   "keywords": [
-    "shoelace"
+    "shoelace",
+    "modal"
   ],
   "repository": {
     "type": "git",
