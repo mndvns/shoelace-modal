@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - 0.10
 before_script:
-  - npm install component component-stylus saucer-js
+  - npm install component component-stylus git+https://github.com/mvanasse/saucer
   - component install
   - component build --standalone shoelace-modal --use component-stylus
 script: saucer test
