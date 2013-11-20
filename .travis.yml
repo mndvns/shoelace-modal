@@ -1,5 +1,12 @@
 language: node_js
 node_js:
   - "0.10"
-install:
-  - "make build"
+before_script:
+  - npm install component saucer-js
+  - component install
+  - component build
+script: saucer test
+env:
+  global:
+    - secure: TqVfmEpVhj53qX/QDmuAWjWPEQnHXeTVaZumb2gjrgjXPf9XxDxm36r2wDa3+TaGCFAFYbrWRJWTssEutP6s6nKa8llVCQHC0CM22ei6U3cZQoeQzsb59/vk0LKz/xk4ypIimxnRvLk5zla7h+kBiSTHHCznV9ylVnDuG1plM2Q=
+    - secure: NI2+3bTcBQHIBf+eV/943VCWy+qoZWfiTgHMWDmEqgcZ4w8nEjdrrSRtAr5YBEJRDhli2TOg1yc22rhDyI+Labnu68yyuy9DeKFBYq3sCE70QZyZXsfhU2aMD9u+dpmLup7m2ynrmszfSJvcRCE6aW5C83SlB4NQvbJYwh+CtJQ=
