@@ -35,7 +35,7 @@ exports.directive('slModal', function($parse) {
       var content = element.next();
       content.remove();
       content = content[0];
-      content.className = 'sl-modal';
+      content.className += ' sl-modal';
 
       var container = document.createElement('div');
       container.className = active;
