@@ -4,8 +4,8 @@ node_js:
 
 env:
   global:
-    - secure: "TqVfmEpVhj53qX/QDmuAWjWPEQnHXeTVaZumb2gjrgjXPf9XxDxm36r2wDa3+TaGCFAFYbrWRJWTssEutP6s6nKa8llVCQHC0CM22ei6U3cZQoeQzsb59/vk0LKz/xk4ypIimxnRvLk5zla7h+kBiSTHHCznV9ylVnDuG1plM2Q="
-    - secure: "NI2+3bTcBQHIBf+eV/943VCWy+qoZWfiTgHMWDmEqgcZ4w8nEjdrrSRtAr5YBEJRDhli2TOg1yc22rhDyI+Labnu68yyuy9DeKFBYq3sCE70QZyZXsfhU2aMD9u+dpmLup7m2ynrmszfSJvcRCE6aW5C83SlB4NQvbJYwh+CtJQ="
+  - secure: OJsg/8b0wVuhZKTSF2OjBCgw+Y7UgcgtaS1eh0QGCCt80ttXZFoaKK+ZlviNBi39blXY25QGGQZtZTIfvuxFXeSEpDIPmNlaIsEjDrdHxyU8MbNTLxQyj8/gqQCI6pJ36SJqn7MlNVT4r8IEGVQHvnBcZWKwct5d7F6tpDBBOos=
+  - secure: mVdimSbzg72XZhssLaGRS/L3X27VF0CzB4EkAEEs5xBP3o7GNH5pEMmyLKlYYvigqctbfX5kJWxbTMqkbHeinU1I9sXwPKrSyXjTG6HLZdj1Nb8q/RH/u2haKLDqsbxtuYxcn5EyhFMxxTK/iX4yw04QYjYzkNptdLG13/WLobw=
 
 before_script:
   - npm install component component-stylus git+https://github.com/mvanasse/saucer
