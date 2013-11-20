@@ -1,15 +1,13 @@
 language: node_js
 node_js:
-  - 0.10
-
+- 0.1
 env:
   global:
-  - secure: OJsg/8b0wVuhZKTSF2OjBCgw+Y7UgcgtaS1eh0QGCCt80ttXZFoaKK+ZlviNBi39blXY25QGGQZtZTIfvuxFXeSEpDIPmNlaIsEjDrdHxyU8MbNTLxQyj8/gqQCI6pJ36SJqn7MlNVT4r8IEGVQHvnBcZWKwct5d7F6tpDBBOos=
-  - secure: mVdimSbzg72XZhssLaGRS/L3X27VF0CzB4EkAEEs5xBP3o7GNH5pEMmyLKlYYvigqctbfX5kJWxbTMqkbHeinU1I9sXwPKrSyXjTG6HLZdj1Nb8q/RH/u2haKLDqsbxtuYxcn5EyhFMxxTK/iX4yw04QYjYzkNptdLG13/WLobw=
+  - secure: O9NvY6v3q9vG0KBOytt2qW6i6YRNpybCxjEXyc8kXJ7siyN6yquRj06DHZOhpfnf9zZXrM/QDmk4Deu1Lpgtx6nUBO4+LKVvPAC8hfQSl87bt6TeKMR4pr5+wEjK2ngijdMXyBr+8hu+Ke9FL4ZjyhDpv4lPUldCpg1OB2ttdag=
+  - secure: D1+0u8YZzt7qkI63eUG01Crj+havgKreig6vbW0qO7rJoB80pNFQP5SFu48lofNz5IUXM45n+/zMuU2J9y1dzAn2keDlbiJW9gnX25zrZYTVyyqmjwxOfCLGXD69geXcohMHtxDLAi5Scou3zGEfW7wcdsT1O44UDaC2WzRW63U=
 
 before_script:
-  - npm install component component-stylus git+https://github.com/mvanasse/saucer
-  - component install
-  - component build --standalone shoelace-modal --use component-stylus
-
+- npm install component component-stylus git+https://github.com/mvanasse/saucer
+- component install
+- component build --standalone shoelace-modal --use component-stylus
 script: saucer test
