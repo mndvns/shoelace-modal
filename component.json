@@ -11,11 +11,11 @@
   },
   "development": {},
   "license": "MIT",
-  "main": "public/javascripts/index.js",
+  "main": "javascripts/index.js",
   "scripts": [
-    "public/javascripts/index.js"
+    "javascripts/index.js"
   ],
   "styles": [
-    "public/stylesheets/index.styl"
+    "stylesheets/index.styl"
   ]
 }
