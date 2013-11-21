@@ -1,13 +1,11 @@
-var tractor = init();
-
 /**
  * Define module elements.
  */
 
-var section = tractor.findElement(protractor.By.css('[data-sl-modal]'))
-var container = tractor.findElement(protractor.By.css('.sl-modal-container'));
-var bg = tractor.findElement(protractor.By.css('.sl-modal-container .bg'));
-var openHandle = tractor.findElement(protractor.By.css('[data-ng-click="open()"]'));
+var section = $('[data-sl-modal]');
+var container = $('.sl-modal-container');
+var bg = $('.sl-modal-container .bg');
+var openHandle = $('[data-ng-click="open()"]');
 
 /**
  * Run tests.
@@ -34,6 +32,6 @@ describe('shoelace-modal', function() {
 
   it('should open when calling `open()`', function() {
     openHandle.click();
-    /* expect(container.getCssValue('display')).toEqual('block'); */
+     // expect(container.getCssValue('display')).toEqual('block'); 
   });
 });
