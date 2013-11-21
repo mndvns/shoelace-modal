@@ -1,7 +1,7 @@
 :stylus
   label
     display block
-  section
+  .section
     margin-top 20px
     border 1px solid #ddd
     box-sizing border-box
@@ -18,7 +18,7 @@ mixin label(group, name)
     input(data-ng-model="#{group}.#{name}")
 
 div(data-ng-init="info1 = {header: 'info 1', content: 'content 2'}",
-        data-sl-modal)
+        data-sl-modal).section
   em.
     Click anywhere to open.
   +label('info1', 'header')
@@ -27,7 +27,7 @@ div
   +label('info1', 'header')
   +label('info1', 'content')
 
-div(data-ng-init="info2 = {header: 'info 2', content: 'content 2'}")
+div(data-ng-init="info2 = {header: 'info 2', content: 'content 2'}").section
   em.
     Click button to open.
   +label('info2', 'header')
