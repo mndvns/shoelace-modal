@@ -17,7 +17,7 @@ mixin label(group, name)
   label #{name}:
     input(data-ng-model="#{group}.#{name}")
 
-section(data-ng-init="info1 = {header: 'info 1', content: 'content 2'}",
+div(data-ng-init="info1 = {header: 'info 1', content: 'content 2'}",
         data-sl-modal)
   em.
     Click anywhere to open.
@@ -27,7 +27,7 @@ div
   +label('info1', 'header')
   +label('info1', 'content')
 
-section(data-ng-init="info2 = {header: 'info 2', content: 'content 2'}")
+div(data-ng-init="info2 = {header: 'info 2', content: 'content 2'}")
   em.
     Click button to open.
   +label('info2', 'header')

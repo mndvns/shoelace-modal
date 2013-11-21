@@ -1,11 +1,26 @@
+Windows XP:
+  - IE 7-8
+  - Chrome
+  - Firefox
 Windows 7:
-  - IE 7+
+  - IE 7-10
   - Chrome
   - Firefox
   - Safari
-iOS:
-  - Safari
-Mac OS X:
-  - Safari
+Windows 8.1:
+  - IE 11
   - Chrome
   - Firefox
+OS X 10.6:
+  - Firefox
+  - Chrome
+  - Safari
+OS X 10.8:
+  # - iPhone 6.1
+  # - iPad 6.1
+  - Chrome
+  - Safari
+Linux:
+  - Chrome
+  - Firefox
+  - Android
